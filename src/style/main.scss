@@ -19,3 +19,13 @@
 @import "./modals.scss";
 @import "./react-draft-wysiwyg.scss";
 @import "./rich-text-editor.scss";
+html{
+    height: 100%;
+    background-color: $teal;
+    body{
+        min-height: 100%;
+        .app-wrapper{
+            min-height: 100%;
+        }
+    }
+}
