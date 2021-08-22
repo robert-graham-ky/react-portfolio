@@ -1,0 +1,24 @@
+.homepage-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    .filter-links {
+      display: flex;
+      justify-content: space-around;
+      .portfolio-column{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: $teal;
+        width: 100%;
+        height: 100%;
+        .btn {
+          width: 100%;
+        }
+        p{
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+        
+      }
+    }
+  }

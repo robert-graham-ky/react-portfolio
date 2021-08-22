@@ -1,0 +1,11 @@
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
