@@ -23,9 +23,12 @@ html{
     height: 100%;
     background-color: $teal;
     body{
-        min-height: 100%;
+        height: 100%;
+        margin:0;
+
         .app-wrapper{
-            min-height: 100%;
+            height: 100%;
+            margin:0;
         }
     }
 }

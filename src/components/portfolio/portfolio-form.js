@@ -78,7 +78,7 @@ export default class PortfolioForm extends Component {
         position: position || "",
         url: url || "",
         editMode: true,
-        apiUrl: `https://robertgraham.devcamp.space/portfolio/portfolio_items${id}`,
+        apiUrl: `https://robertgraham.devcamp.space/portfolio/portfolio_items/${id}`,
         apiAction: "patch",
         thumb_image_url: thumb_image_url || "",
         banner_image_url: banner_image_url || "",
@@ -225,9 +225,8 @@ export default class PortfolioForm extends Component {
             onChange={this.handleChange}
             className="select-element"
           >
-            <option value="eCommerce">eCommerce</option>
-            <option value="Scheduling">Scheduling</option>
-            <option value="Enterprise">Enterprise</option>
+            <option value="tutorial">Coding Tutorial</option>
+            <option value="project">Project</option>
           </select>
         </div>
 
